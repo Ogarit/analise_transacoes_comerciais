@@ -2,18 +2,17 @@
 
 ## Descrição do Projeto
 
-Este projeto visa analisar um conjunto de dados de transações comerciais para identificar padrões, realizar análise exploratória de dados e desenvolver modelos preditivos que possam oferecer insights comerciais. A análise inclui a exploração de dados de vendas, clientes e produtos.
+Este projeto tem como objetivo analisar um conjunto de dados de transações comerciais para identificar padrões, realizar análise exploratória de dados (EDA) e desenvolver modelos preditivos que possam oferecer insights comerciais valiosos. A análise abrange dados de vendas, clientes e produtos, com o intuito de otimizar decisões comerciais e melhorar a estratégia de vendas.
 
-## Estrutura do Projeto
+## Objetivo
 
-- **notebooks/**: Contém o Jupyter Notebook com as etapas de análise de dados e modelagem.
-  - `desafio_6.ipynb`: Notebook principal com a análise e modelagem.
-- **data/**: Diretório para armazenamento de dados brutos e processados.
-- **models/**: Diretório para salvar modelos treinados e resultados.
+- Exploração e análise dos dados de transações comerciais.
+- Desenvolvimento de modelos preditivos para prever vendas ou identificar padrões comportamentais de clientes.
+- Proporcionar insights estratégicos para melhorar o relacionamento com os clientes e otimizar as operações de vendas.
 
 ## Estrutura dos Dados
 
-O conjunto de dados inclui as seguintes colunas:
+O conjunto de dados contém as seguintes colunas:
 
 - **InvoiceNo**: Número da fatura da transação.
 - **StockCode**: Código do produto.
@@ -29,29 +28,27 @@ O conjunto de dados inclui as seguintes colunas:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu_usuario/nome_do_projeto.git
-   cd nome_do_projeto
-   ```
+   git clone https://github.com/Ogarit/analise_transacoes_comerciais.git
+   cd analise_transacoes_comerciais
 2. Crie e ative um ambiente virtual:
    ```bash
    python -m venv venv
    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
-   ```
 3. Instale as dependências necessárias:
    ```bash
    pip install -r requirements.txt
-   ```
 
-## Uso
-Abra o Jupyter Notebook para explorar a análise de dados e os modelos preditivos:
-```bash
-jupyter notebook notebooks/desafio_6.ipynb
-```
-No notebook, você encontrará etapas para:
-1. Carregar e limpar os dados.
-2. Explorar e analisar os dados.
-3. Criar e treinar modelos preditivos.
-4. Avaliar os modelos e interpretar os resultados.
+## Como Usar
+
+1. Abra o Jupyter Notebook para explorar a análise de dados e os modelos preditivos:
+   ```bash
+   jupyter notebook analise_transacoes_comerciais.ipynb
+2. No notebook, você encontrará as seguintes etapas de análise:
+   - Carregamento e limpeza dos dados.
+   - Análise exploratória de dados (EDA).
+   - Criação e treinamento de modelos preditivos (como regressão ou classificação).
+   - Avaliação de modelos e interpretação dos resultados.
 
 ## Conclusão
-Este projeto fornece uma visão abrangente do processo de análise de dados de transações comerciais, desde a limpeza de dados até a construção de modelos preditivos. Os insights obtidos podem ser utilizados para melhorar a estratégia de vendas e o relacionamento com os clientes. Contribuições são bem-vindas para melhorar ainda mais a análise e os modelos.
+
+Este projeto oferece uma visão abrangente do processo de análise de dados comerciais, desde a limpeza dos dados até a construção de modelos preditivos. Os insights obtidos podem ser aplicados para otimizar estratégias de vendas, melhorar o atendimento ao cliente e aumentar a rentabilidade. Contribuições são bem-vindas para aprimorar a análise e os modelos.
