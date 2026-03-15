@@ -44,8 +44,6 @@ A análise dos dados revelou pontos relevantes para o contexto comercial:
 * **Padrões temporais foram identificados nas transações**, com períodos de maior e menor volume, indicando possíveis efeitos sazonais ou operacionais.
 * **Diferenças no comportamento de compra entre grupos de clientes** sugerem que uma abordagem comercial única pode não ser a mais eficiente.
 
-Esses insights ajudam a transformar dados brutos em **informações estratégicas** para o negócio.
-
 ## 🎯 Possíveis Decisões
 
 Com base nos insights obtidos, uma empresa poderia:
@@ -61,5 +59,3 @@ Essas decisões demonstram como a análise de dados pode **fechar o ciclo entre 
 ## 📌 Considerações Finais
 
 Este projeto demonstra um fluxo completo de **análise de dados aplicada a um problema de negócio realista**, indo além da exploração técnica e focando na **interpretação dos dados e apoio à tomada de decisão**.
-
-A abordagem adotada reforça o papel do **Analista de Dados como agente estratégico**, capaz de transformar dados em insights e decisões que geram valor para a empresa.
